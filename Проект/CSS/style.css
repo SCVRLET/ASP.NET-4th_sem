@@ -42,20 +42,6 @@ nav {
   color: #DCDCDC;
 }
 
-#nav2 {
-  background-color: #FFFFFF;
-  font-size: 18px;
-}
-
-#nav2 a {
-  color: #000000;
-  margin-left: 1rem;
-}
-
-#nav2 a:hover {
-  color: #9932CC;
-}
-
 #authorization {
   font-size: 13px;
   width: auto;
@@ -356,10 +342,6 @@ select.form-control:not([size]):not([multiple]) {
     color: #ff5b57!important;
 }
 
-#exampleCheck {
-  margin-left: 0.01rem;
-}
-
 .btn {
    width: 100%;
    background: #000080;
@@ -443,6 +425,22 @@ select.form-control:not([size]):not([multiple]) {
   margin-left: -1px;
 }
 
+#card1:hover {
+  opacity: .5;
+}
+
+#card1:hover .img {
+ visibility: visible
+}
+
+#card2:hover {
+  opacity: .5;
+}
+
+#card2:hover .img {
+ visibility: visible
+}
+
 main {
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
@@ -455,10 +453,4 @@ body {
   background-color: #F5F5F5;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
-}
-
-footer {
-  font-family: 'Raleway', sans-serif;
-  background: #15151e;
-  color: #fff;
 }
