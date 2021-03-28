@@ -7,5 +7,7 @@ namespace RepusBlog_dataLayer.Entities
         public int Id { get; set; }
         public ICollection<Comment> Comments { get; set; }
         public ICollection<Like> Likes { get; set; }
+
+        //public ICollection<Hashtag> Hashtags { get; set; } TODO
     }
 }

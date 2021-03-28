@@ -9,4 +9,3 @@ O:\Programming\VS_Projects\RepusBlog\RepusBlog_dataLayer\obj\Debug\netcoreapp3.1
 O:\Programming\VS_Projects\RepusBlog\RepusBlog_dataLayer\bin\Debug\netcoreapp3.1\RepusBlog_dataLayer.pdb
 O:\Programming\VS_Projects\RepusBlog\RepusBlog_dataLayer\obj\Debug\netcoreapp3.1\RepusBlog_dataLayer.dll
 O:\Programming\VS_Projects\RepusBlog\RepusBlog_dataLayer\obj\Debug\netcoreapp3.1\RepusBlog_dataLayer.pdb
-O:\Programming\VS_Projects\RepusBlog\RepusBlog_dataLayer\obj\Debug\netcoreapp3.1\RepusBlog_dataLayer.csprojAssemblyReference.cache

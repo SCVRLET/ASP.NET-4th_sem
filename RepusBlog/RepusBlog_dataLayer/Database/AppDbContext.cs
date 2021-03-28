@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using RepusBlog_dataLayer.Entities;
 
 namespace RepusBlog_dataLayer.Entities
 {
