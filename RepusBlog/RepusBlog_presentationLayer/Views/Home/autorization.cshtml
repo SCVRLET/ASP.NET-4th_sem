@@ -1,0 +1,99 @@
+﻿@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" conыtent="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Авторизация</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="~/img/Logo.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- main -->
+    <main class="main align-self-center">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4"></div>
+
+                <div class="col-4">
+
+                    <div class="limiter">
+                        <div class="container-login-autorization">
+                            <div class="wrap-login-autorization">
+                                <form class="login-autorization-form validate-form">
+                                    <span class="login-autorization-form-title p-b-26" style="margin-bottom: 2rem;">
+                                        Авторизация
+                                    </span>
+
+                                   <div class="form-group col-md-12">
+                                        <span class="has-float-label">
+                                            <input required="" type="email" class="form-control" id="AutorizationEmail"
+                                                   aria-describedby="emailHelp" placeholder="Введите почту:">                                            
+                                            <label for="Mail">Почта:</label>
+                                        </span>
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <span class="has-float-label">
+                                            <input required="" class="form-control" id="AutorizationPassword" type="password" placeholder="Введите пароль:" />
+                                            <label for="Password">Пароль:</label>
+                                        </span>
+                                    </div>
+
+                                    <div class="container-login-autorization-form-btn">
+                                        <div class="wrap-login-autorization-form-btn">
+                                            <div class="login-autorization-form-bgbtn"></div>
+                                            <button class="login-autorization-form-btn">
+                                                Войти
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-center p-t-115">
+                                        <span class="txt1">
+                                            Еще не имеете аккаунт?
+                                        </span>
+                                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="registration_selection">Зарегистрироваться</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-4"></div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+
+</body>
+</html>
