@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem-main\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {}
+    "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem-main\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {
+    "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem-main\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
         "projectName": "RepusBlog_dataLayer",
-        "projectPath": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem-main\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
+        "projectPath": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
         "packagesPath": "C:\\Users\\BANGLADESH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem-main\\RepusBlog\\RepusBlog_dataLayer\\obj\\",
+        "outputPath": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

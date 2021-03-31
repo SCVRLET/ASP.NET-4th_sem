@@ -5727,11 +5727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem-main\\RepusBlog\\RepusBlog_presentationLayer\\RepusBlog_presentationLayer.csproj",
+      "projectUniqueName": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_presentationLayer\\RepusBlog_presentationLayer.csproj",
       "projectName": "RepusBlog_presentationLayer",
-      "projectPath": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem-main\\RepusBlog\\RepusBlog_presentationLayer\\RepusBlog_presentationLayer.csproj",
+      "projectPath": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_presentationLayer\\RepusBlog_presentationLayer.csproj",
       "packagesPath": "C:\\Users\\BANGLADESH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem-main\\RepusBlog\\RepusBlog_presentationLayer\\obj\\",
+      "outputPath": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_presentationLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5751,8 +5751,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem-main\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {
-              "projectPath": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem-main\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj"
+            "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {
+              "projectPath": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj"
             }
           }
         }

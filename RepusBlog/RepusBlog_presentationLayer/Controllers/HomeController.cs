@@ -43,10 +43,10 @@ namespace RepusBlog_presentationLayer.Controllers
             return View();
         }
 
-        //public IActionResult profile()
-        //{
-        //    return View();
-        //}
+        public IActionResult profile()
+        {
+            return View();
+        }
 
         public IActionResult autorization()
         {

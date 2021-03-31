@@ -19,23 +19,8 @@ nav {
   height: auto;
   position: fixed;
   top: 0;
-  font-size: 18px;
   font-weight: normal;
   font-style: normal;
-}
-
-.tm-editor__textarea {
-  width: 100%;
-  min-height: 500px;
-  border: solid;
-  border-width: 0px;
-  text-align: left;
-  background-color: white;
-  -webkit-box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.75);
-  padding: 15px;
-  border-radius: 5px;
 }
 
 #nav1 a:hover {
@@ -43,21 +28,17 @@ nav {
 }
 
 #authorization {
-  font-size: 13px;
+  font-size: 30px;
   width: auto;
-  margin-right: 1rem;
 }
 
 #registration {
-  font-size: 13px;
+  font-size: 30px;
   width: auto;
 }
 
 #myModal, #ModalEdit {
   font-family: 'Raleway', sans-serif;
-  background: #200122;
-  background: -webkit-linear-gradient(to bottom, #A52A2A, #330d36);
-  background: linear-gradient(to bottom, #A52A2A, #330d36);
   padding: 60px 50px;
   position: relative;
 }
@@ -78,7 +59,6 @@ nav {
 }
 
 .profile-header .profile-header-cover {
-    background-image: url(https://bootdey.com/img/Content/bg1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,16 +67,6 @@ nav {
     right: 0;
     top: 0;
     bottom: 0
-}
-
-.profile-header .profile-header-cover:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .75) 100%)
 }
 
 .profile-header .profile-header-content {
@@ -114,20 +84,21 @@ nav {
     margin: 0 0 -20px;
     padding: 3px;
     border-radius: 100px;
-    background: #fff
+    background: #fff;
 }
 
 .profile-header-img img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .profile-header-info h4 {
     font-weight: 500;
-    color: #fff
+    color: #fff;
+    margin-left: 2rem;
 }
 
 .profile-header-img+.profile-header-info {
-    margin-left: 140px
+    margin-left: 2rem;
 }
 
 .profile-header .profile-header-content,
@@ -401,7 +372,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .has-float-label .form-control:placeholder-shown:not(:focus) + label {
-  font-size: 20px;
+  font-size: 15px;
   opacity: .6;
   top: .5em;
 }
@@ -477,7 +448,7 @@ a:focus {
 }
 
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
   color: #6a7dfe;
   color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
   color: -o-linear-gradient(left, #21d4fd, #b721ff);
@@ -666,7 +637,7 @@ iframe {
 .login-autorization-form-bgbtn {
   position: absolute;
   z-index: -1;
-  width: 300%;
+  width: 200%;
   height: 100%;
   background: #a64bf4;
   background: -webkit-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
@@ -696,10 +667,119 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 0 20px;
-  width: 100%;
+  width: 70%;
   height: 50px;
 }
 
 .wrap-login-autorization-form-btn:hover .login-autorization-form-bgbtn {
   left: 0;
+}
+
+.twPc-div {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e1e8ed;
+    border-radius: 6px;
+    height: 220px;
+    width: auto;
+    // orginal twitter width: 290px;
+}
+
+.twPc-bg {
+    background-image: url("https://pbs.twimg.com/profile_banners/50988711/1384539792/600x200");
+    background-position: 0 50%;
+    background-size: 100% auto;
+    border-bottom: 1px solid #e1e8ed;
+    border-radius: 4px 4px 0 0;
+    height: 95px;
+    width: 100%;
+}
+
+.twPc-block {
+    display: block !important;
+}
+
+.twPc-button {
+    margin: -35px -10px 0;
+    text-align: right;
+    width: 100%;
+}
+
+.twPc-avatarLink {
+    background-color: #fff;
+    border-radius: 6px;
+    display: inline-block !important;
+    float: left;
+    margin: -30px 5px 0 8px;
+    max-width: 100%;
+    padding: 1px;
+    vertical-align: bottom;
+}
+
+.twPc-avatarImg {
+    border: 2px solid #fff;
+    border-radius: 7px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 120px;
+    width: 120px;
+}
+
+.twPc-divUser {
+    margin: 5px 0 0;
+}
+
+.twPc-divName {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.twPc-divName a {
+    color: inherit !important;
+}
+
+.twPc-divStats {
+    margin-left: 11px;
+    padding: 10px 0;
+}
+
+.twPc-Arrange {
+    box-sizing: border-box;
+    display: table;
+    margin: 0;
+    min-width: 100%;
+    padding: 0;
+    table-layout: auto;
+}
+
+ul.twPc-Arrange {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.twPc-ArrangeSizeFit {
+    display: table-cell;
+    padding: 0;
+    vertical-align: top;
+}
+
+.twPc-ArrangeSizeFit a:hover {
+   text-decoration: none;
+}
+
+.twPc-StatValue {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.15s ease-in-out 0s;
+}
+
+.twPc-StatLabel {
+    color: #8899a6;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: color 0.15s ease-in-out 0s;
 }
