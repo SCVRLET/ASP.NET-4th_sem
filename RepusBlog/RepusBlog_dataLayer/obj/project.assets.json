@@ -5803,11 +5803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
+      "projectUniqueName": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
       "projectName": "RepusBlog_dataLayer",
-      "projectPath": "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
+      "projectPath": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
       "packagesPath": "C:\\Users\\SCVRLET\\.nuget\\packages\\",
-      "outputPath": "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_dataLayer\\obj\\",
+      "outputPath": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SCVRLET\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,17 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@{ ViewData["Title"] = "Главная"; }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="col-3"></div>
+
+<div class="col-6">
+    <div class="text-center" style="margin-top: 5rem;">
+        <h1 class="display-4">Добро пожаловать!</h1>
+        <p>
+            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="registration_selection">
+                Для начала Вам нужно зарегистрироваться, если у вас еще нет аккаунта
+            </a>
+        </p>
+    </div>
 </div>
+
+<div class="col-3"></div>
+

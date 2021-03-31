@@ -28,6 +28,31 @@ namespace RepusBlog_presentationLayer.Controllers
             return View();
         }
 
+        public IActionResult registration_selection()
+        {
+            return View();
+        }
+
+        public IActionResult registration_user()
+        {
+            return View();
+        }
+
+        public IActionResult registration_company()
+        {
+            return View();
+        }
+
+        public IActionResult profile()
+        {
+            return View();
+        }
+
+        public IActionResult autorization()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

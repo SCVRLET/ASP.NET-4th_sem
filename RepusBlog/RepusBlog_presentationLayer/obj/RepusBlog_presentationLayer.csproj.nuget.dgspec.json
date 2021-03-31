@@ -1,17 +1,83 @@
 {
   "format": 1,
   "restore": {
-    "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_presentationLayer\\RepusBlog_presentationLayer.csproj": {}
+    "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_presentationLayer\\RepusBlog_presentationLayer.csproj": {}
   },
   "projects": {
-    "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {
+    "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_businessLayer\\RepusBlog_businessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
-        "projectName": "RepusBlog_dataLayer",
-        "projectPath": "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_businessLayer\\RepusBlog_businessLayer.csproj",
+        "projectName": "RepusBlog_businessLayer",
+        "projectPath": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_businessLayer\\RepusBlog_businessLayer.csproj",
         "packagesPath": "C:\\Users\\SCVRLET\\.nuget\\packages\\",
-        "outputPath": "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_dataLayer\\obj\\",
+        "outputPath": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_businessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SCVRLET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {
+                "projectPath": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
+        "projectName": "RepusBlog_dataLayer",
+        "projectPath": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
+        "packagesPath": "C:\\Users\\SCVRLET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SCVRLET\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,14 +138,14 @@
         }
       }
     },
-    "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_presentationLayer\\RepusBlog_presentationLayer.csproj": {
+    "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_presentationLayer\\RepusBlog_presentationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_presentationLayer\\RepusBlog_presentationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_presentationLayer\\RepusBlog_presentationLayer.csproj",
         "projectName": "RepusBlog_presentationLayer",
-        "projectPath": "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_presentationLayer\\RepusBlog_presentationLayer.csproj",
+        "projectPath": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_presentationLayer\\RepusBlog_presentationLayer.csproj",
         "packagesPath": "C:\\Users\\SCVRLET\\.nuget\\packages\\",
-        "outputPath": "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_presentationLayer\\obj\\",
+        "outputPath": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_presentationLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SCVRLET\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,8 +161,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {
-                "projectPath": "O:\\Programming\\VS_Projects\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj"
+              "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_businessLayer\\RepusBlog_businessLayer.csproj": {
+                "projectPath": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_businessLayer\\RepusBlog_businessLayer.csproj"
               }
             }
           }

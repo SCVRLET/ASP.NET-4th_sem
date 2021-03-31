@@ -1,10 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RepusBlog_dataLayer.Entities;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace RepusBlog_dataLayer.Entities
+namespace RepusBlog_dataLayer.Database
 {
     public class AppDbContext : DbContext
     {
+
         public DbSet<User> Users { get; set; }
         public DbSet<Post> Posts { get; set; }
 
