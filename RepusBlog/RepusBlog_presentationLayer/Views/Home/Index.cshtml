@@ -1,17 +1,5 @@
-﻿@{ ViewData["Title"] = "Главная"; }
+﻿@{
+    ViewBag.Title = "Home Page";
+}
 
-<div class="col-3"></div>
-
-<div class="col-6">
-    <div class="text-center" style="margin-top: 5rem;">
-        <h1 class="display-4">Добро пожаловать!</h1>
-        <p>
-            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="registration_selection">
-                Для начала Вам нужно зарегистрироваться, если у вас еще нет аккаунта
-            </a>
-        </p>
-    </div>
-</div>
-
-<div class="col-3"></div>
-
+<h2>@User.Identity.Name</h2>

@@ -1,29 +1,13 @@
 ﻿namespace RepusBlog_businessLayer.DTO
 {
-    class UserDTO
+    public class UserDTO
     {
-        public int Id { get; set; }
-        public string Login { get; set; }
-        public string Name { get; set; }
-        public string SurName { get; set; }
+        public string Id { get; set; }
         public string Email { get; set; }
-        public string Password_hash { get; set; }
-        public string Country { get; set; }
-        public UserTypeDTO Type { get; set; }
-        public UserRoleDTO Role { get; set; }
-        public bool IsSubscribed { get; set; }
-
-    }
-
-    public enum UserRoleDTO
-    {
-        Client,
-        Admin
-    }
-
-    public enum UserTypeDTO
-    {
-        Person,
-        Company
+        public string Password { get; set; }
+        public string UserName { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public string Role { get; set; }
     }
 }

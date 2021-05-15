@@ -1,62 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using RepusBlog_presentationLayer.Models;
+using System.Web;
+using System.Web.Mvc;
+using Microsoft.AspNet.Identity.Owin;
+using Microsoft.AspNet.Identity;
+using RepusBlog_businessLayer.Interfaces;
 
 namespace RepusBlog_presentationLayer.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private IUserService UserService
         {
-            _logger = logger;
+            get
+            {
+                return HttpContext.GetOwinContext().GetUserManager<IUserService>();
+            }
         }
 
-        public IActionResult Index()
+        public ActionResult Index()
         {
             return View();
         }
-
-        public IActionResult Privacy()
+        [Authorize(Roles="admin")]
+        public ActionResult About()
         {
+            ViewBag.Message = "Your application description page.";
+            
             return View();
-        }
-
-        public IActionResult registration_selection()
-        {
-            return View();
-        }
-
-        public IActionResult registration_user()
-        {
-            return View();
-        }
-
-        public IActionResult registration_company()
-        {
-            return View();
-        }
-
-        public IActionResult profile()
-        {
-            return View();
-        }
-
-        public IActionResult autorization()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

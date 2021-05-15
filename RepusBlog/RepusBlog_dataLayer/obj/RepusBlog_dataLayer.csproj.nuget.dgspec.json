@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {}
+    "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {
+    "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
         "projectName": "RepusBlog_dataLayer",
-        "projectPath": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
-        "packagesPath": "C:\\Users\\SCVRLET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SCVRLET\\Desktop\\abrq\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\obj\\",
+        "projectPath": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\RepusBlog_dataLayer.csproj",
+        "packagesPath": "C:\\Users\\BANGLADESH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BANGLADESH\\Desktop\\ASP.NET-4th_sem\\RepusBlog\\RepusBlog_dataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SCVRLET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BANGLADESH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -68,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
