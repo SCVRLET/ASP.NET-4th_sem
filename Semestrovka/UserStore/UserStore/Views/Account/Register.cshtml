@@ -1,0 +1,106 @@
+﻿@model PresentationLayer.Models.RegisterViewModel
+@{
+    Layout = "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="~/css/register.css" />
+
+</head>
+
+<body>
+    <div id="register-form">
+        <div id="register-form-header">
+            <h3>
+                Registration <br>
+                <a id="signin-link" href="Login">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                    </svg>
+                    sign in
+                </a>
+            </h3>
+            <div class="slider-button" id="as-person" style="float: left;" onclick="changeType(event, 'as-person')">AS PERSON</div>
+            <div class="slider-button" id="as-company" style="float: right;" onclick="changeType(event, 'as-company')">AS COMPANY</div>
+        </div>
+        <div id="register-form-body">
+            <form method="post" asp-controller="Account" asp-action="Register">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username" required="" asp-for="UserName">
+                    <span asp-validation-for="UserName" class="error-field"></span>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="E-mail" required="" asp-for="Email">
+                    <span asp-validation-for="Email" class="error-field"></span>
+                </div>
+                <div class="form-group">
+                    <input id="password-field" type="password" class="form-control" placeholder="Password" required="" asp-for="Password">
+                    <span asp-validation-for="Password" class="error-field"></span>
+                </div>
+                <div class="form-group">
+                    <input id="password-field" type="password" class="form-control" placeholder="Confirm password" required="" asp-for="PasswordConfirm">
+                    <span asp-validation-for="PasswordConfirm" class="error-field"></span>
+                </div>
+                <div class="form-group">
+                    <button id="sign-up-button" type="submit" class="form-control btn btn-primary submit px-3">Sign Up</button>
+                </div>
+                <input type="checkbox" id="as-person-checkbox" style="display: none;" checked>
+                <input type="checkbox" id="as-company-checkbox" style="display: none;" asp-for="IsCompany">
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        function changeType(evt, el_id) {
+            var as_person_block = document.getElementById("as-person");
+            var as_company_block = document.getElementById("as-company");
+
+            var as_person_checkbox = document.getElementById("as-person-checkbox")
+            var as_company_checkbox = document.getElementById("as-company-checkbox")
+
+            if (el_id == "as-person") {
+                as_person_checkbox.checked = true;
+                as_company_checkbox.checked = false;
+
+                as_person_block.style.fontWeight = "bold";
+                as_person_block.style.borderBottom = "1px solid white"
+
+                as_company_block.style.fontWeight = "normal";
+                as_company_block.style.borderBottom = "none"
+            }
+
+            else {
+                as_company_checkbox.checked = true;
+                as_person_checkbox.checked = false;
+
+                as_company_block.style.fontWeight = "bold";
+                as_company_block.style.borderBottom = "1px solid white"
+
+                as_person_block.style.fontWeight = "normal";
+                as_person_block.style.borderBottom = "none"
+            }
+        }
+    </script>
+</body>
+
+</html>
