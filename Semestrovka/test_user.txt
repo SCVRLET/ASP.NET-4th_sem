@@ -1,2 +1,0 @@
-test_email@mail.ru
-123321Aa$
