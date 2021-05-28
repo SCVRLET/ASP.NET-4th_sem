@@ -37,7 +37,7 @@ namespace UserStore
                 opts.Password.RequireDigit = false; // требуются ли цифры) 
             })
                 .AddEntityFrameworkStores<ApplicationContext>();
-            services.AddControllersWithViews().AddJsonOptions(options => options.JsonSerializerOptions.MaxDepth = 100);
+            services.AddControllersWithViews().AddJsonOptions(options => options.JsonSerializerOptions.MaxDepth = 50);
             var connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<EFDBContext>(options => options.UseSqlServer(connection, b => b.MigrationsAssembly("DataLauer")));
             services.AddTransient<IEFPostsRepository, EFPostsRepository>();

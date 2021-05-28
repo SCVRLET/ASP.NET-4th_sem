@@ -55,7 +55,7 @@ namespace UserStore.Controllers
             var profile_posts = _dataManager.Posts.GetProfilePosts(curr_user_id);
             profile_posts.Reverse();
 
-            return Json(new { profile_posts = profile_posts });
+            return Json(new { });
         }
         
         [HttpPost]
@@ -66,16 +66,14 @@ namespace UserStore.Controllers
             if(_dataManager.Posts.FindLike(postId, curr_user.Id) == null)
             {
                 _dataManager.Posts.AddLike(postId, curr_user.Id);
-                return Json(new { like = true, likes_number = _dataManager.Posts.FindPost(postId).Likes.Count() });
+                return Json(new { like = true, likes_number = _dataManager.Posts.FindPost(postId).Likes.Count(), postId = postId });
             }
 
             else
             {
                 _dataManager.Posts.RemoveLike(postId, curr_user.Id);
-                return Json(new { like = false, likes_number = _dataManager.Posts.FindPost(postId).Likes.Count() });
+                return Json(new { like = false, likes_number = _dataManager.Posts.FindPost(postId).Likes.Count(), postId = postId });
             }
-
-            /*return RedirectToAction("Profile", "Home", new { userName = HttpContext.User.Identity.Name });*/
         }
 
         public async Task<IActionResult> Edit(string id)
