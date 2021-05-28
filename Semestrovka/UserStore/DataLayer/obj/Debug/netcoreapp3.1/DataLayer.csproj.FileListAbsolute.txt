@@ -22,3 +22,15 @@ C:\Users\SCVRLET\Desktop\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\Us
 C:\Users\SCVRLET\Desktop\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\UserStore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
 C:\Users\SCVRLET\Desktop\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\UserStore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
 C:\Users\SCVRLET\Desktop\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\UserStore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache

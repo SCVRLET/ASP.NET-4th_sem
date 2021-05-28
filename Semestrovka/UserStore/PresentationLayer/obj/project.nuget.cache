@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CTTSijM6GyfkQsPKXzofNvuJ2nHalLOWZOxECer6vIso0df/8h9pK0u4+f5kx1YKVl0z9K0mEayIRUDTkv/zoA==",
+  "dgSpecHash": "9RP28Nz76B7G1TFpu+TTiw7hRCq9yX7tCzh9ceCf05uISrVbUH8R0+OCtLp7pjmm82muUDMwAsgMgRyixczJsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SCVRLET\\Desktop\\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\\UserStore\\PresentationLayer\\PresentationLayer.csproj",
+  "projectFilePath": "C:\\Users\\SCVRLET\\Desktop\\semes\\ASP.NET-4th_sem\\Semestrovka\\UserStore\\PresentationLayer\\PresentationLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SCVRLET\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\SCVRLET\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

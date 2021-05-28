@@ -24,6 +24,16 @@ namespace UserStore.Controllers
             _dataManager = dataManager;
         }
 
+        public async Task<IActionResult> Settings(string postText)
+        {
+            return View(_userManager.FindByNameAsync(HttpContext.User.Identity.Name).Result);
+        }
+
+        public async Task<IActionResult> MyProfile(string postText)
+        {
+            return RedirectToAction("Profile", "Home", new { userName = HttpContext.User.Identity.Name });
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreatePost(string postText)
         {
@@ -49,7 +59,7 @@ namespace UserStore.Controllers
         }
         
         [HttpPost]
-        public JsonResult LikeOrDeleteLike(int postId)
+        public async Task<JsonResult> LikeOrDeleteLike(int postId)
         {
             var curr_user = _userManager.FindByNameAsync(HttpContext.User.Identity.Name).Result;
 

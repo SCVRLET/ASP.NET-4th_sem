@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SCVRLET\\Desktop\\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\\UserStore\\DataLayer\\DataLayer.csproj": {}
+    "C:\\Users\\SCVRLET\\Desktop\\semes\\ASP.NET-4th_sem\\Semestrovka\\UserStore\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SCVRLET\\Desktop\\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\\UserStore\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\SCVRLET\\Desktop\\semes\\ASP.NET-4th_sem\\Semestrovka\\UserStore\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SCVRLET\\Desktop\\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\\UserStore\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\SCVRLET\\Desktop\\semes\\ASP.NET-4th_sem\\Semestrovka\\UserStore\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\SCVRLET\\Desktop\\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\\UserStore\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\SCVRLET\\Desktop\\semes\\ASP.NET-4th_sem\\Semestrovka\\UserStore\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\SCVRLET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SCVRLET\\Desktop\\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\\UserStore\\DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\SCVRLET\\Desktop\\semes\\ASP.NET-4th_sem\\Semestrovka\\UserStore\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SCVRLET\\AppData\\Roaming\\NuGet\\NuGet.Config",

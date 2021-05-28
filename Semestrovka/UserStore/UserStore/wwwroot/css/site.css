@@ -65,9 +65,13 @@ textarea {
     text-decoration: none;
 }
 
-.navbar-option:hover {
+    .navbar-option a{
+        text-decoration: none;
+    }
+
+    .navbar-option:hover {
         color: rgb(239, 153, 248);
-}
+    }
 
 textarea::-webkit-scrollbar {
     display: none;

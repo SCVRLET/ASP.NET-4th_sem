@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wiNG+Ijmno9w0ULKSBipn7coYvJsuJFGMkw2R+n4RVpLodHMYSyLbAv7R/Lk6odXSgfvGn0daYv1njeXZAmx3A==",
+  "dgSpecHash": "9w1Ct5dxqUqad6WyWCGMwck4O17aQUGh5hLm3NuTbnsEAUgyp5PDXQ6OjdSwpHpwWGOjRcRN/+XReNC+RJLZUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SCVRLET\\Desktop\\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\\UserStore\\DataLayer\\DataLayer.csproj",
+  "projectFilePath": "C:\\Users\\SCVRLET\\Desktop\\semes\\ASP.NET-4th_sem\\Semestrovka\\UserStore\\DataLayer\\DataLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SCVRLET\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\SCVRLET\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

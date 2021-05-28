@@ -22,3 +22,15 @@ C:\Users\SCVRLET\Desktop\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\Us
 C:\Users\SCVRLET\Desktop\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\UserStore\BisonessLayer\obj\Debug\netcoreapp3.1\BisonessLayer.csproj.CopyComplete
 C:\Users\SCVRLET\Desktop\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\UserStore\BisonessLayer\obj\Debug\netcoreapp3.1\BisonessLayer.dll
 C:\Users\SCVRLET\Desktop\Semestrovka-3b95702110b44d0552916618e3b477a092cf3729\UserStore\BisonessLayer\obj\Debug\netcoreapp3.1\BisonessLayer.pdb
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\BisonessLayer\bin\Debug\netcoreapp3.1\BisonessLayer.deps.json
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\BisonessLayer\bin\Debug\netcoreapp3.1\BisonessLayer.dll
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\BisonessLayer\bin\Debug\netcoreapp3.1\BisonessLayer.pdb
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\BisonessLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\BisonessLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\BisonessLayer\obj\Debug\netcoreapp3.1\BisonessLayer.csprojAssemblyReference.cache
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\BisonessLayer\obj\Debug\netcoreapp3.1\BisonessLayer.AssemblyInfoInputs.cache
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\BisonessLayer\obj\Debug\netcoreapp3.1\BisonessLayer.AssemblyInfo.cs
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\BisonessLayer\obj\Debug\netcoreapp3.1\BisonessLayer.csproj.CoreCompileInputs.cache
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\BisonessLayer\obj\Debug\netcoreapp3.1\BisonessLayer.csproj.CopyComplete
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\BisonessLayer\obj\Debug\netcoreapp3.1\BisonessLayer.dll
+C:\Users\SCVRLET\Desktop\semes\ASP.NET-4th_sem\Semestrovka\UserStore\BisonessLayer\obj\Debug\netcoreapp3.1\BisonessLayer.pdb
