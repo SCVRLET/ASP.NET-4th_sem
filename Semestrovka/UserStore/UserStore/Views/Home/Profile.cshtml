@@ -16,12 +16,10 @@
         <div id="avatar-container">
             @if (Model.User.Avatar == null)
             {
-                <img id="avatar" src="~/images/default_avatar/icon.png">
-            }
-            else
-            {
-                <img id="avatar">
-            }
+    <img id="avatar" src="~/images/default_avatar/icon.png"> }
+else
+{
+    <img id="avatar">}
 
         </div>
         <div id="profile-text-info">
@@ -34,11 +32,51 @@
             <div class="profile-joined-date">
                 <h6>Joined at: @Model.User.JoinedAt.Date.ToString("MM/dd/yyyy")</h6>
             </div>
+
+            <button style="margin-bottom: 2rem;" type="button" onclick="DisplayGoogleMap()" class="btn btn-primary">Click to Display Map</button>
+            <button style="margin-left: 1rem; margin-bottom: 2rem;" type="button" onclick="close('myDiv')" class="btn btn-primary">Click to Close Map</button>
+
         </div>
+
+        <div id="myDiv" style="width: 100%; height: 400px;"></div>
+
+        <script>
+            function DisplayGoogleMap() {
+
+                //Set the Latitude and Longitude of the Map
+                var myAddress = new google.maps.LatLng(55.792286, 49.122328);
+
+                //Create Options or set different Characteristics of Google Map
+                var mapOptions = {
+                    center: myAddress,
+                    zoom: 15,
+                    minZoom: 15,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+
+                //Display the Google map in the div control with the defined Options
+                var map = new google.maps.Map(document.getElementById("myDiv"), mapOptions);
+
+                //Set Marker on the Map
+                var marker = new google.maps.Marker({
+                    position: myAddress,
+                    animation: google.maps.Animation.BOUNCE,
+                    map: map
+                });
+                // Ѕерем дл€ этих маркеров синие иконки с сайта google
+                marker.setIcon('http://maps.google.com/mapfiles/ms/icons/blue-dot.png')
+
+                google.maps.event.addListener(marker, 'click', function () {
+                    infowindow.open(map, marker);
+                });
+
+                marker.setMap(map);
+            }
+        </script>
     </div>
 
 </div>
-<div class="post-creation-container">
+<div class="post-creation-container" style="margin-top: 1rem;">
     <div class="post-creation-block">
         <form method="POST" asp-controller="Users" asp-action="CreatePost">
             <textarea name="postText" id="autoresizing" placeholder="Tell me how do you feel"></textarea>
@@ -190,4 +228,5 @@
 
 @section Scripts {
     <script src="~/js/profile.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClMwwaNjiwMYGJNbMbPRuw70DeVGVqfK0&callback=initMap" type="text/javascript"></script>
 }
